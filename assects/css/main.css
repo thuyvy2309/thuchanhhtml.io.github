@@ -50,9 +50,9 @@ body
 }
 input
 {
-    width: 420px;
-    height: 30px;
-    border-color: #97ca51;
+    width: 414px;
+    height: 33.4px;
+    border-color: #94cc51;
     border-radius: 6px;
   
 }
@@ -71,27 +71,48 @@ input
 .header_nav2_logo
 {
     padding-left: 158px;
+    cursor: pointer;
 }
 .header_nav2_search
 {
-    margin-top: 50px;
-    padding-left: 158px;
+    margin-top: 43px;
+    padding-left: 100px;
+    cursor: pointer;
+    border:#94cc51 ;
 }
 .icon-seach
 {
-    padding: 10px 10px ;
-    background-color:#be5b70;
+    padding: 9.8px 10px ;
+    background-color:#94cc51;
+    color: white;
+    border-radius: 4px;
+    margin-left: -32px;
+    cursor: pointer;
 }
+
 .header_nav2_giohang
 {
-    margin-top: 50px;
+    margin-top: 49px;
     padding-left: 50px;
+}
+.header_nav2_giohang > span
+{
+    padding: 6px 14px;
+    margin-top: 47px;
+    border: 3px solid #94cc51;
+    border-radius: 4px;
 }
 .header_nav2_nguoidung
 {
-    margin-top: 50px;
-    padding-left: 50px;
+    margin-top: 49px;
+    padding-left: 33px;
 }
+.header_nav2_nguoidung > span
+{
+    padding: 6px 14px;
+    margin-top: 47px;
+}
+
 
 /*---MENU---*/
 .sub_menu
@@ -120,11 +141,12 @@ input
 .main_menu li:hover
 {
     text-decoration:none;
-    color:#be5b70;
+    cursor: pointer;
+    background-color:#94cc51 ;
 } 
 .main_menu > ul > li 
 {
-    float: left;
+    float:left;
     display:inline-block;
     position:relative;
     font-size:15px;
