@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../css/order.css">
+    <link rel="stylesheet" href="../fonts/fontawesome-free-5.15.2-web/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>ABOUT US</title>
+</head>
+<body>
+    <!--HEADER-->
+    <div class="main">
+        <header>
+            <div class="header_contact">
+                <div class="grid wide">
+                    <div class="nav1">
+                        <ul class="header_contact_link1">
+                            <li class="contact__link">
+                                <span><i class="fas fa-phone-alt" style="color: #97ca51;"></i> </span> Hotline: 028 3815 3333
+                            </li>
+                            <li class="contact__link1">
+                                <span><i class="fas fa-envelope"></i></span> Email: info@sumika.vn
+                            </li>
+                        </ul>
+
+                        <ul class="header_contact_link2">
+                            <li class="contact__link">
+                                <span><i class="fab fa-facebook-f"></i></span>
+                            </li>
+                            <li class="contact__link">
+                                <span><i class="fab fa-twitter"></i></span>
+                            </li>
+                            <li class="contact__link">
+                                <span><i class="fab fa-google-plus-g"></i></span>
+                            </li>
+                            <li class="contact__link">
+                                <span><i class="fab fa-instagram-square"></i></span>
+                            </li>
+                            <li class="contact__link">
+                                <span><i class="fab fa-youtube"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="header_navbar">
+                <div class="wrapper">
+                    <div class="header_nav2">
+                        <div class="header_nav2_logo">
+                            <a href="../html/other.html"><img src="../img/homepage/logo_header.jpg" alt="Sumika" title="Sumika"></a>
+                        </div>
+
+                        <div class="header_nav2_search" id="search">
+                                <form>
+                                    <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
+                                <span> <i class="fa fa-search icon-seach"></i></span>
+                                </form>
+                        </div>
+
+                        <div class="header_nav2_giohang">
+                            <span>
+                                <a href="../html/order.html" style="color: black; text-decoration: none;">
+                                    <i class="fas fa-shopping-basket icon_giohang"></i>
+                                    &nbsp;Giỏ hàng&nbsp;0
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header_menu">
+                <div class="grid wide">
+                    <nav class="main_menu">
+                        <ul class="sub_menu">
+                            <li><a href="../html/other.html" id="home-icon">TRANG CHỦ</a></li>
+                            <li><a href="../html/aboutus.html" id="home-icon">GIỚI THIỆU</a></li>
+                            <li><a href="../html/product.html" id="home-icon">SẢN PHẨM</a></li>
+                            <li><a href="../html/warrantypolicy.html" id="home-icon">CHÍNH SÁCH BẢO HÀNH</a></li>
+                            <li><a href="../html/news.html" id="home-icon">TIN TỨC</a></li>
+                        </ul>                
+                    </nav>                                            
+                </div>
+            </div>
+        </header>
+        <!--BODY-->
+            <div class="main-content order">
+                <div class="wrapper">
+                  <div class="main-order" style="width: 100%; float: none;">
+                    <div class="order-item">
+                        <div class="box-title">
+                          <span class="icon-title">Đơn hàng của bạn</span>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                  <th class="t-order">HÌNH ẢNH</th>
+                                  <th class="t-order">TÊN SẢN PHẨM</th>
+                                  <th class="t-order">SỐ LƯỢNG</th>
+                                  <th class="t-order">ĐƠN GIÁ</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr class="block-wish">
+                                  <td class="tb-left"><a href="../html/other.html" style="color: brown;">Tiếp tục mua hàng</td>
+                                  <td colspan="3" class="tb-right"><p style="font-size: medium;"><strong>Tổng tiền: </strong><span>0</span> đ</p></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <div class="order-info" style="width: 100%; float: none;">
+                        <div class="box-title">
+                            <span class="icon-title">Thông tin đặt hàng</span>
+                        </div>
+                        <form id="send_payment" class="from_label" >
+                                <div>
+                                    <label for="hoten">Họ tên:</label><input name="order[fullname]" type="text" value="" id="hoten">
+                                </div>
+                                <div>
+                                    <label for="email">Email:</label><input name="order[email]" type="text" value="" id="email">
+                                </div>
+                                <div>
+                                    <label for="sodienthoai">Số điện thoại (bắt buộc):</label><input name="order[phone]" type="text" value="" id="sodienthoai">
+                                </div>
+                                <div>
+                                    <label for="diachi">Địa chỉ:</label><input name="order[address]" type="text" value="" id="diachi">
+                                </div>
+                                <div>
+                                    <label for="note">Ghi chú đơn hàng:</label><textarea name="order[intro]" id="note"> </textarea>
+                                </div>
+                                <div class="alert_msg_change_shipping" style="padding-left: 70px; color: red; font-weight: bold; font-size: 16px; margin-top: 20px;"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="sumbit-order" style="margin: 0 0 40px;">
+                    <a class="btn_submit-shopping-bag" onclick="" >ĐẶT HÀNG </a>
+                </div>
+                <div class="clear-all"></div>
+            </div>
+        </div>
+    <!--FOOTER-->
+	    <footer>
+            <div class="container">
+                <div class="noidung_container">
+                    <img id="info" src="../img/homepage/footer.jpg">
+                </div>
+            </div>
+
+            <div class="container1">
+                <div class="wrapper">
+                    <div class="noidung_container2">
+                        <div class="info_footer1"> 
+                            <h4>VĂN PHÒNG GIAO DỊCH</h4>
+                            <br>
+                            <br>
+                                <ul class="noidung">
+                                    <li class="contact__container">
+                                        <span><i class="fas fa-map-marker-alt" style="color: #bfd4e5;"></i></span>
+                                        <span> &nbsp; Địa chỉ: Số 17-19,D15,P.Tây<br/>
+                                            Thạnh, Q.Tân Phú, TPHCM</span>
+                                    </li>
+                                    <br>
+                                    <br>
+                                    <li class="contact__container">
+                                        <span><i class="fas fa-phone-alt" style="color: #bfd4e5;"></i></span> 
+                                        <span> &nbsp; Điện thoại: 028 3815 3333 (Từ <br/>
+                                            8h00 - 17h00 các ngày trong <br/>
+                                            tuần)</span>
+                                    </li>
+                                    <br>
+                                    <br>
+                                    
+                                    <li class="contact__container">
+                                        <span><i class="fas fa-envelope" style="color: #bfd4e5;"></i></span> 
+                                        <span>&nbsp; Email: info@sumika.vn</span>
+                                    </li>
+                                </ul>
+                        </div>
+
+                        <div class="info_footer2"> 
+                            <h4>CHĂM SÓC KHÁCH HÀNG</h4>
+                            <br/>
+                            <br/>
+                                <ul>
+                                    <li>Hướng dẫn mua hàng</li>
+                                    <br/>
+                                    <li>Hướng dẫn thanh toán</li>
+                                    <br/>
+                                    <li>Các hình thứ mua hàng</li>
+                                    <br/>
+                                    <li>Kiểm tra đơn hàng</li>
+                                    <br/>
+                                    <li>Sơ đồ đường đi</li>
+                                    <br/>
+                                </ul>
+                        </div>
+
+                        <div class="info_footer3"> 
+                            <h4>CHÍNH SÁCH BÁN HÀNG</h4>
+                            <br/>
+                            <br/>
+                                <ul>
+                                    <li>Chính sách quy trình</li>
+                                    <br/>
+                                    <li>Chính sách bảo hành</li>
+                                    <br/>
+                                    <li>Chính sách bảo mật</li>
+                                    <br/>
+                                    <li>Chính sách vận chuyển</li>
+                                    <br/>
+                                    <li>Chính sách đổi trả hàng</li>
+                                    <br/>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

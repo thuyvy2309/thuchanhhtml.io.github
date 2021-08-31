@@ -349,8 +349,16 @@ ul.wrap-sanphambanchay
     height: 30px;
     color: #94cc51;
     padding-top: 4px;
+    width: 100px;
 }
-
+.buy-sanpham1 
+{
+    text-align: center;
+    background: white;
+    height: 30px;
+    color: #94cc51;
+    padding-top: 4px;
+}
 /* THANH NHÔM */
 .box-thanhnhom 
 {
@@ -517,7 +525,7 @@ ul.thongtinkhacchitiet2
 .info_footer1 > h4 
 {
     color: #bfd4e5;
-    padding-left: 144px;
+    padding-left: 59px;
     margin-bottom: -3px;
 }
 .info_footer2 > h4, .info_footer3 > h4
@@ -545,7 +553,7 @@ ul.thongtinkhacchitiet2
 .info_footer1, .contact__container
 {
     list-style: none;
-    padding-left: 127px;
+    padding-left: 58px;
 }
 #info
 {
