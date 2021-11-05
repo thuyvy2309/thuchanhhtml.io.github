@@ -169,15 +169,16 @@ input
 }
 .main_menu > ul > li
 {
-    margin-top: 5px;
-    padding: 12px 20px;
+    margin-top: 4px;
+    padding: 14px 20px;
     display:inline-block;
     color:white;
 }
-#home-icon, #aboutus-icon
+#home-icon
 {
     text-decoration: none;
     color: #f3f4f6;
+    font-weight: 600;
 }
 
 /* BODY */
@@ -188,6 +189,8 @@ input
 	margin-top: 10px;
 	float: left;
     border-radius: 3px;
+    position: sticky;
+    top: 10%;
 }
 
 .title-cate 
@@ -236,7 +239,7 @@ input
 {
     text-decoration:none;
     cursor: pointer;
-    background-color:#d7d8b0 ;
+    opacity: .8;
 } 
 #icon-cate
 {
@@ -357,86 +360,8 @@ img.img-item
 {
     max-width: none;
 }
-
-/* GIAO DIỆN MOBILE */
-@media (max-width: 767px) 
+#icon-policy:hover
 {
-	.img-thangnhom1 
-    {
-        width: 100%;
-        display: block;
-	}
-	/*.img-thangnhom2 
-    {
-		
-	}*/
-	/*li.thangnhom2 
-    {
-		width: 25%;
-        padding: 0 10px;
-	}*/
-    .img-thangnhom
-    {
-        display: block;
-    }
-    .nav1, .header_contact_link1, .header_nav2, .slider-sanpham , 
-    .allsanpham_right, .wrapper1, ul.wrap-sanphambanchay, .img-thangnhom1 ,ul.img-thangnhom2, .img-thanhnhom,
-    .wrapper-thongtinkhac, .thongtinkhacchitiet2 li, .info_footer1, .info_footer2, .info_footer3
-    {
-        display: block;
-        width: 100%;
-    }
-    .header_nav2 
-    {
-        padding: 64px 37px;
-    }
-    .noidung, li 
-    {
-        font-size: 17px;
-        font-weight: bold;
-    }
-    .contact__link1 
-    {
-        border-left: 2px solid #f7f8fa;
-        padding-left: 1px;
-        padding-top: 5px;
-    }
-    .grid.wide 
-    {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding-top: 5px;
-        text-align: center;
-}
-    .header_contact 
-    {
-        width: 111%;
-        background-color: #f7f8fa;
-        height: 93px;
-    }
-    ul.header_contact_link2 
-    {
-        padding-left: 143px;
-    }
-    .header_nav2_logo
-    {
-        cursor: pointer;
-        margin-top: -52px;
-        padding-left: 38px;
-    }
-    .header_nav2_search 
-    {
-        margin-top: 12px;
-        padding: 0;
-        cursor: pointer;
-        border: #94cc51;
-    }
-    input 
-    {
-        width: 155%;
-        height: 33.4px;
-        border-color: #94cc51;
-        border-radius: 6px;
-        padding-left: 11px;
-    }
+    color: firebrick;
+    font-weight: bolder;
 }

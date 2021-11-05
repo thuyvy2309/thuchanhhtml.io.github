@@ -169,19 +169,26 @@ input
 }
 .main_menu > ul > li
 {
-    margin-top: 5px;
-    padding: 12px 20px;
+    margin-top: 4px;
+    padding: 14px 20px;
     display:inline-block;
     color:white;
 }
-#home-icon, #aboutus-icon
+#home-icon
 {
     text-decoration: none;
     color: #f3f4f6;
+    font-weight: 600;
 }
-
-
 /* BODY */
+a img
+{
+    transition-duration: 0.5s;
+}
+a img:hover
+{
+    transform:scale(1.05);
+}
 .categories
 {
 	width: 196px;
@@ -189,6 +196,8 @@ input
 	margin-top: 10px;
 	float: left;
     border-radius: 3px;
+    position: sticky;
+    top: 10%;
 }
 
 .title-cate 
@@ -243,7 +252,7 @@ input
 {
     text-decoration:none;
     cursor: pointer;
-    background-color:#d7d8b0 ;
+    opacity: .8;
 } 
 #icon-cate
 {
