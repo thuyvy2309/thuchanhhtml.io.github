@@ -189,6 +189,8 @@ input
 	margin-top: 10px;
 	float: left;
     border-radius: 3px;
+    position: sticky;
+    top: 10%
 }
 
 .title-cate 
